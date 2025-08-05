@@ -1,0 +1,9 @@
+[submodule "to-do-web"]
+	path = to-do-web
+	url = https://github.com/aphyueh/to-do-web.git
+[submodule "to-do-mobile-app"]
+	path = to-do-mobile-app
+	url = https://github.com/aphyueh/to-do-mobile-app.git
+[submodule "to-do-backend"]
+	path = to-do-backend
+	url = https://github.com/aphyueh/to-do-backend.git
