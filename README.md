@@ -5,7 +5,7 @@ A complete todo application ecosystem featuring a GraphQL backend, React web app
 ## Live Demos
 
 - **Web Application**: [https://to-do-website-liard.vercel.app/](https://to-do-website-liard.vercel.app/)
-- **GraphQL Playground**: [AWS Lambda GraphQL Endpoint]([YOUR_AWS_LAMBDA_ENDPOINT_HERE](https://r4dz7ss5od.execute-api.us-east-1.amazonaws.com/dev/graphql)
+- **GraphQL Playground**: [AWS Lambda GraphQL Endpoint](https://r4dz7ss5od.execute-api.us-east-1.amazonaws.com/dev/graphql)
 - **Mobile App (Android)**: [Expo Installation Link](https://expo.dev/accounts/aphyueh/projects/to-do-mobile-app/builds/f8919be9-a701-4897-bd82-e56d5b797d0e)
 
 <img src="to-do-mobile-app/img/expo-qr-code.png" alt="QR Code to install mobile app" width="200">
@@ -13,12 +13,16 @@ A complete todo application ecosystem featuring a GraphQL backend, React web app
 ## Screenshots
 
 ### Web Application
-<img src="to-do-web/public/demo-login-screenshot.png" alt="Web Login" width="300">
-<img src="to-do-web/public/demo-todo-screenshot.png" alt="Web Todo List" width="300">
+<img src="img/demo-login-screenshot.png" alt="Web Login" width="300">
+<img src="img/demo-todo-screenshot.png" alt="Web Todo List" width="300">
 
 ### Mobile Application
-<img src="to-do-mobile-app/img/screenshot-login.jpg" alt="Mobile Login" width="200">
-<img src="to-do-mobile-app/img/screenshot-todo.jpg" alt="Mobile Todo List" width="200">
+<img src="img/screenshot-mobile-login.jpg" alt="Mobile Login" width="200">
+<img src="img/screenshot-mobile-todo.jpg" alt="Mobile Todo List" width="200">
+
+### Backend Graphql (AWS)
+<img src="img/graphql.png" alt="Sandbox Explorer" width="500">
+
 
 ## Architecture Overview
 
@@ -222,6 +226,50 @@ query {
     text
     completed
   }
+}
+```
+
+### Sample database
+```json
+{
+  "users": [
+    {
+      "id": "YZUQU93Ah2yuSPwo3nLQs",
+      "name": "Cillian",
+      "email": "charles@gmail.com"
+    },
+    {
+      "id": "vufBqXhTzbNKolK-hzdsA",
+      "name": "Murphy",
+      "email": "murphy@gmail.com"
+    },
+  ],
+  "todos": [
+    {
+      "id": "C5fdFXDxta0fdeGv3wOgu",
+      "text": "Fix mobile app",
+      "userId": "YZUQU93Ah2yuSPwo3nLQs",
+      "completed": false
+    },
+    {
+      "id": "VQ3zggo3KrVu7yqGd5he_",
+      "text": "Go swimming on Sunday",
+      "userId": "vufBqXhTzbNKolK-hzdsA",
+      "completed": false
+    },
+    {
+      "id": "oHOeLQU-hb7CUPebOW2ax",
+      "text": "Start writing the movie script!",
+      "userId": "vufBqXhTzbNKolK-hzdsA",
+      "completed": false
+    },
+    {
+      "id": "2IrQA6WhE0BQSL4KouuK0",
+      "text": "Try out bouldering",
+      "userId": "vufBqXhTzbNKolK-hzdsA",
+      "completed": true
+    },
+  ]
 }
 ```
 
