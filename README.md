@@ -19,6 +19,7 @@ A complete todo application ecosystem featuring a GraphQL backend, React web app
 <img src="img/screenshot-mobile-login.jpg" alt="Mobile Login" width="200">
 <img src="img/screenshot-mobile-todo.jpg" alt="Mobile Todo List" width="200">
 
+
 ### Backend Graphql (AWS)
 <img src="img/graphql.png" alt="Sandbox Explorer" width="500">
 
@@ -72,11 +73,15 @@ This project follows a modern full-stack architecture with clear separation of c
 - **State Management**: Apollo Client
 - **Deployment**: Vercel (auto-deploy from GitHub)
 
+<img src="img/vercel.png" alt="Installation" width="400">
+
 ### Mobile Frontend (`to-do-mobile-app`)
 - **Framework**: React Native + Expo
 - **Navigation**: React Navigation
 - **State Management**: Apollo Client + AsyncStorage
 - **Deployment**: Expo Application Services (EAS)
+
+<img src="img/expo-installation.png" alt="Installation" width="200">
 
 ## Quick Start
 
