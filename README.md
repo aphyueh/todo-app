@@ -7,8 +7,7 @@ A complete todo application ecosystem featuring a GraphQL backend, React web app
 - **Web Application**: [https://to-do-website-liard.vercel.app/](https://to-do-website-liard.vercel.app/)
 - **GraphQL Playground**: [AWS Lambda GraphQL Endpoint](https://r4dz7ss5od.execute-api.us-east-1.amazonaws.com/dev/graphql)
 - **Mobile App (Android)**: [Expo Installation Link](https://expo.dev/accounts/aphyueh/projects/to-do-mobile-app/builds/f8919be9-a701-4897-bd82-e56d5b797d0e)
-
-<img src="to-do-mobile-app/img/expo-qr-code.png" alt="QR Code to install mobile app" width="200">
+<img src="img/qrcode_expo.png" alt="QR Code to install mobile app" width="100">
 
 ## Screenshots
 
@@ -152,7 +151,7 @@ Both will install the app on your Android device.
 - 💾 Offline support with client-side caching
 - 🎨 Modern UI/UX with Tailwind CSS
 
-## 🕐 Development Timeline
+## Development Timeline
 
 | Component | Time Invested | Key Challenges |
 |-----------|---------------|----------------|
@@ -168,7 +167,7 @@ Both will install the app on your Android device.
 4. **Integration**: Connected all clients to deployed backend
 5. **Deployment**: Set up CI/CD for web (Vercel) and mobile (EAS)
 
-## 🔧 GraphQL API
+## GraphQL API
 
 ### Schema Overview
 ```graphql
@@ -273,7 +272,7 @@ query {
 }
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 todobreeze/
@@ -304,7 +303,7 @@ todobreeze/
 - **Real-time**: WebSocket subscriptions for live updates
 - **Testing**: Comprehensive unit and integration tests
 
-## 👤 Author
+## Author
 
 **Amber Pang**
 - GitHub: [@aphyueh](https://github.com/aphyueh)
